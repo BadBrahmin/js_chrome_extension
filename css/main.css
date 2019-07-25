@@ -1,2 +1,25 @@
 /* Importing Normalize css */
 @import url("normalize.css");
+
+div[data-testid="sidebarColumn"]{
+    display: none !important;
+    width: 123px !important;
+}
+
+
+form[aria-label="Search Twitter"][role="search"] {
+  visibility: visible !important;
+  position: fixed !important;
+  width: 270px !important;
+  top: 8px;
+  right: 20px;
+}
+
+div[data-testid="primaryColumn"]{
+    max-width: 700px;
+}
+
+article div div a + div:empty {
+  background: linear-gradient(rgba(194, 104, 126, 0.911), #242a6d);
+}
+
